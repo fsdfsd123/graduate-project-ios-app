@@ -1,0 +1,285 @@
+PODS:
+  - ActionButton (0.1.5)
+  - Alamofire (4.8.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CNIOAtomics (2.2.0)
+  - CNIODarwin (2.2.0)
+  - CNIOHTTPParser (2.2.0)
+  - CNIOLinux (2.2.0)
+  - CNIOSHA1 (2.2.0)
+  - ElasticSwift (1.0.0-alpha.9):
+    - ElasticSwiftCodableUtils (= 1.0.0-alpha.9)
+    - ElasticSwiftCore (= 1.0.0-alpha.9)
+    - ElasticSwiftNetworking (= 1.0.0-alpha.9)
+    - ElasticSwiftQueryDSL (= 1.0.0-alpha.9)
+    - Logging (~> 1.1.0)
+    - SwiftNIO (~> 2.2.0)
+    - SwiftNIOConcurrencyHelpers (~> 2.2.0)
+    - SwiftNIOFoundationCompat (~> 2.2.0)
+    - SwiftNIOHTTP1 (~> 2.2.0)
+    - SwiftNIOTLS (~> 2.2.0)
+    - SwiftNIOTransportServices (~> 1.0.3)
+  - ElasticSwiftCodableUtils (1.0.0-alpha.9)
+  - ElasticSwiftCore (1.0.0-alpha.9):
+    - Logging (~> 1.1.0)
+    - SwiftNIO (~> 2.2.0)
+    - SwiftNIOHTTP1 (~> 2.2.0)
+  - ElasticSwiftNetworking (1.0.0-alpha.9):
+    - ElasticSwiftCore (= 1.0.0-alpha.9)
+    - Logging (~> 1.1.0)
+    - SwiftNIO (~> 2.2.0)
+    - SwiftNIOConcurrencyHelpers (~> 2.2.0)
+    - SwiftNIOFoundationCompat (~> 2.2.0)
+    - SwiftNIOHTTP1 (~> 2.2.0)
+    - SwiftNIOTLS (~> 2.2.0)
+    - SwiftNIOTransportServices (~> 1.0.3)
+  - ElasticSwiftQueryDSL (1.0.0-alpha.9):
+    - ElasticSwiftCodableUtils (= 1.0.0-alpha.9)
+    - ElasticSwiftCore (= 1.0.0-alpha.9)
+    - Logging (~> 1.1.0)
+  - FBSDKCoreKit (4.44.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.44.1):
+    - FBSDKCoreKit
+  - Firebase (4.13.0):
+    - Firebase/Core (= 4.13.0)
+  - Firebase/Auth (4.13.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.6.1)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.6.1):
+    - FirebaseAnalytics (~> 4.2)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.2.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FSPagerView (0.8.2)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMRefresh (1.3.6)
+  - GTMSessionFetcher/Core (1.2.1)
+  - Hero (1.4.0)
+  - Kingfisher (5.4.0)
+  - leveldb-library (1.20)
+  - Logging (1.1.0)
+  - LUExpandableTableView (5.0.0)
+  - MarqueeLabel/Swift (3.1.6)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NotificationBannerSwift (1.6.3):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - PageMenu (2.0.0)
+  - SidebarOverlay (4.2.2)
+  - SideMenu (5.0.3)
+  - SnapKit (4.2.0)
+  - SwiftNIO (2.2.0):
+    - CNIOAtomics (= 2.2.0)
+    - CNIODarwin (= 2.2.0)
+    - CNIOLinux (= 2.2.0)
+    - CNIOSHA1 (= 2.2.0)
+    - SwiftNIOConcurrencyHelpers (= 2.2.0)
+  - SwiftNIOConcurrencyHelpers (2.2.0):
+    - CNIOAtomics (= 2.2.0)
+  - SwiftNIOFoundationCompat (2.2.0):
+    - SwiftNIO (= 2.2.0)
+  - SwiftNIOHTTP1 (2.2.0):
+    - CNIOHTTPParser (= 2.2.0)
+    - SwiftNIO (= 2.2.0)
+    - SwiftNIOConcurrencyHelpers (= 2.2.0)
+  - SwiftNIOTLS (2.2.0):
+    - SwiftNIO (= 2.2.0)
+  - SwiftNIOTransportServices (1.0.3):
+    - SwiftNIO (~> 2.0)
+    - SwiftNIOConcurrencyHelpers (~> 2.0)
+    - SwiftNIOFoundationCompat (~> 2.0)
+    - SwiftNIOTLS (~> 2.0)
+  - SwiftyJSON (5.0.0)
+  - TwitchPlayer (0.2.2)
+  - YoutubePlayer-in-WKWebView (0.2.5)
+
+DEPENDENCIES:
+  - ActionButton
+  - Alamofire (~> 4.4)
+  - Bolts
+  - ElasticSwift (~> 1.0.0-alpha.9)
+  - ElasticSwiftCodableUtils (~> 1.0.0-alpha.9)
+  - ElasticSwiftCore (~> 1.0.0-alpha.9)
+  - ElasticSwiftNetworking (~> 1.0.0-alpha.9)
+  - ElasticSwiftQueryDSL (~> 1.0.0-alpha.9)
+  - FBSDKCoreKit (~> 4.0)
+  - FBSDKLoginKit (~> 4.0)
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - FirebaseAuth (~> 4.0)
+  - FirebaseDatabase (~> 4.0)
+  - FirebaseStorage (~> 2.0)
+  - FSPagerView
+  - GoogleSignIn
+  - GTMRefresh
+  - Hero
+  - Kingfisher
+  - LUExpandableTableView
+  - MarqueeLabel/Swift (= 3.1.6)
+  - Material
+  - NotificationBannerSwift (= 1.6.3)
+  - PageMenu
+  - SidebarOverlay
+  - SideMenu
+  - SwiftyJSON
+  - TwitchPlayer
+  - YoutubePlayer-in-WKWebView (~> 0.2.0)
+
+SPEC REPOS:
+  trunk:
+    - ActionButton
+    - Alamofire
+    - Bolts
+    - CNIOAtomics
+    - CNIODarwin
+    - CNIOHTTPParser
+    - CNIOLinux
+    - CNIOSHA1
+    - ElasticSwift
+    - ElasticSwiftCodableUtils
+    - ElasticSwiftCore
+    - ElasticSwiftNetworking
+    - ElasticSwiftQueryDSL
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseStorage
+    - FSPagerView
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMRefresh
+    - GTMSessionFetcher
+    - Hero
+    - Kingfisher
+    - leveldb-library
+    - Logging
+    - LUExpandableTableView
+    - MarqueeLabel
+    - Material
+    - Motion
+    - nanopb
+    - NotificationBannerSwift
+    - PageMenu
+    - SidebarOverlay
+    - SideMenu
+    - SnapKit
+    - SwiftNIO
+    - SwiftNIOConcurrencyHelpers
+    - SwiftNIOFoundationCompat
+    - SwiftNIOHTTP1
+    - SwiftNIOTLS
+    - SwiftNIOTransportServices
+    - SwiftyJSON
+    - TwitchPlayer
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  ActionButton: a71147de5a83b6d8d8e18464b216904ba7821677
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CNIOAtomics: 06bfe5346d6b02ee20f77c02e08885e81925e7e4
+  CNIODarwin: c539a16010d7a7f910d9446b7d941da6e921fd4c
+  CNIOHTTPParser: b40747893a8c1a223689ad27c0966502b3f1ef05
+  CNIOLinux: 5476596aa331cdaacd988885c8b55ab8d59ee0f4
+  CNIOSHA1: e8a5506ef82330f54e099b5b037dae5c2b054b00
+  ElasticSwift: 5fc996b8b5d2a9741017902a29ec14c3ae230aec
+  ElasticSwiftCodableUtils: 37e756c70e2ec7326e5722c859d2d3a006924970
+  ElasticSwiftCore: f8e9d6c930a34dc01b0c09945549a84718601915
+  ElasticSwiftNetworking: 1fe3d67995c867a1abfdd0f9cdca53137bfe33c5
+  ElasticSwiftQueryDSL: 76fc3d04be6789fa68cd23540474efdf631d3b4a
+  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  FBSDKLoginKit: 54ae59987f2a8703021557c90a9aebb9e5c2bef6
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseAuth: bf22cacf22c60ab454bf2636f556d8892b10b53f
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseStorage: 0c223481c8f89ed300cf1239ddd2d9833622c65f
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMRefresh: 9231cbdc1dca88d0a29daead8d6bd83314aa84dc
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Logging: 0f0b5d7d124fab770fde88cf942cb57a63804236
+  LUExpandableTableView: 710ed7e7d55d0b58d61c95561bd9ecbf39692010
+  MarqueeLabel: 0c41f08ef5773e29c0f71064a8fa788a2fd8b365
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NotificationBannerSwift: b231e4c3244848ef300e1c53ce027b9756b9b06f
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+  SidebarOverlay: a5365455a2f9d54f70d0765764ca1a2806b1b11d
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftNIO: ae10ef6d51826a75838a8bb17548795213322c24
+  SwiftNIOConcurrencyHelpers: 876305e2d327c60241c9e2ab95b939efd4d2b3e0
+  SwiftNIOFoundationCompat: 0382be7e557fb26a9e3ef782dd11df79a9eb94c0
+  SwiftNIOHTTP1: 8f7e69f74567298fcc9ffc51419ada04c1155ac2
+  SwiftNIOTLS: b418ff1ed56037f39dabb952f189fb44df9c6dab
+  SwiftNIOTransportServices: 0eac7fdcc74c55152bb4dd9d79ab83a194fe7512
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TwitchPlayer: 19560719b4ac7b0688d25ea64fcd41acb4f3ff90
+  YoutubePlayer-in-WKWebView: 4dad12b3ece938a6456fa4374df78942f88b485a
+
+PODFILE CHECKSUM: 72e4410cfb9877fd3d6eafc4953cef158f4e524a
+
+COCOAPODS: 1.8.3
