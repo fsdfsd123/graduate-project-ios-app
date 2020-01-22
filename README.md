@@ -18,7 +18,7 @@ If the compilation fails after downloading the project, check that the `XCode` v
 
 ## Demonstration 演示图
 
-<img width="250" height="400" src=" image/ilivenet.gif"/>
+<img width="250" height="400" src="螢幕快照 2020-01-22 12.56.44.png"/>
 
 
 
